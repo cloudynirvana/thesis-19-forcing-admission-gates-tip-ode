@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you cite this computational research thesis, please use the metadata below. No DOI is minted here; do not invent one."
+type: thesis
+title: "Forcing admission under evidence gates: which phytochemical screen scores may enter a tip ODE as known forcings?"
+authors:
+  - family-names: Ogbonna
+    given-names: Kelechi Emeka
+    email: kelechiogbonna300@gmail.com
+    alias: cloudynirvana
+abstract: >-
+  When a phytochemical screen is barred from writing scores into Theta,
+  which of those scores — if any — may be admitted as declared known
+  forcings into a tip ODE without bypassing evidence gates or leaking
+  through soft priors? Twelve claim records transcribed from Thesis #16
+  are tested by an admission ledger. Seventeen calls return refused.
+  One call admits a protocol-constant forcing schedule for row L10.
+  The SHA-256 of the kinetic vector is unchanged under the refusals and
+  under that admission. The state path moves because the forcing moved.
+  Not a medical device. No efficacy claim. No document DOI.
+keywords:
+  - evidence gates
+  - forcing admission
+  - kinetic parameters
+  - phytochemical screen
+  - ordinary differential equations
+  - soft prior
+  - ledger
+  - research-only
+license: MIT
+date-released: "2026-09-21"
+url: "https://github.com/cloudynirvana/thesis-19-forcing-admission-gates-tip-ode"
+repository-code: "https://github.com/cloudynirvana/thesis-19-forcing-admission-gates-tip-ode"
+preferred-citation:
+  type: thesis
+  title: "Forcing admission under evidence gates: which phytochemical screen scores may enter a tip ODE as known forcings?"
+  authors:
+    - family-names: Ogbonna
+      given-names: Kelechi Emeka
+  year: 2026
+  month: 9
+  url: "https://github.com/cloudynirvana/thesis-19-forcing-admission-gates-tip-ode"
+  notes: "Thesis #19. Computational research. Depends on theses 01, 07, and 16. Toy admission ledger, not a clinical result. No document DOI."

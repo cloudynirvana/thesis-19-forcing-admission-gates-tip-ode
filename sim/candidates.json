@@ -1,0 +1,185 @@
+{
+  "transcribed_from": "Transcribed from Thesis #16 sim/results.json: row id, label, PAINS flag, utility, claim, top-quartile count, and the four surrogate scores, plus the library SHA-256 and the anecdote text. Ranks were not copied. Scores were not recomputed. Utility and scores are stored so a refused contrast can name the numeral it did not write. The admission predicate does not read utility or those numerals.",
+  "source_repository": "https://github.com/cloudynirvana/thesis-16-mitochondrial-dpsim-phytochemical-screen",
+  "library_sha256": "46d685fbeccf5b7b8facf06623c6d46f34f7aa1c91fc3bed2fec0cd0fcc68a16",
+  "t16_theta_sha256_cited_not_used": "0b85bb8afb97637e5d4e880ec2dd2fdfc8673be14ff6fd499208c31bae50ef6b",
+  "engine": null,
+  "unit": "arbitrary_surrogate",
+  "may_enter_theta": false,
+  "anecdote": {
+    "id": "roadmap_G_tip",
+    "text": "An unpublished mitochondrial-reprogramming roadmap mentioned G_tip moving from 0.238 to 0.245.",
+    "recomputed_here": false,
+    "may_enter_theta": false
+  },
+  "rows": [
+    {
+      "id": "L01",
+      "label": "querol",
+      "pains": 0,
+      "utility": "0.6666666666666666",
+      "claim": 3,
+      "n_top_quartile": 2,
+      "scores": {
+        "psi": "0.7487499999999999",
+        "ampk": "-1.3954166666666665",
+        "pi3k": "-0.11166666666666664",
+        "glut1": "-1.19"
+      }
+    },
+    {
+      "id": "L02",
+      "label": "kampol",
+      "pains": 0,
+      "utility": "0.5625",
+      "claim": 2,
+      "n_top_quartile": 0,
+      "scores": {
+        "psi": "0.30375000000000013",
+        "ampk": "-0.73375",
+        "pi3k": "0.2000000000000001",
+        "glut1": "-0.5149999999999999"
+      }
+    },
+    {
+      "id": "L03",
+      "label": "curmin",
+      "pains": 0,
+      "utility": "0.5",
+      "claim": 2,
+      "n_top_quartile": 0,
+      "scores": {
+        "psi": "-0.17625000000000013",
+        "ampk": "0.19666666666666663",
+        "pi3k": "0.09791666666666654",
+        "glut1": "-0.23875"
+      }
+    },
+    {
+      "id": "L04",
+      "label": "resvol",
+      "pains": 0,
+      "utility": "0.35416666666666663",
+      "claim": 2,
+      "n_top_quartile": 0,
+      "scores": {
+        "psi": "-0.7150000000000002",
+        "ampk": "0.50875",
+        "pi3k": "1.53375",
+        "glut1": "1.1062499999999997"
+      }
+    },
+    {
+      "id": "L05",
+      "label": "egallate",
+      "pains": 1,
+      "utility": "0.7708333333333333",
+      "claim": 2,
+      "n_top_quartile": 3,
+      "scores": {
+        "psi": "1.22125",
+        "ampk": "-3.6979166666666665",
+        "pi3k": "-2.5741666666666667",
+        "glut1": "-3.6049999999999995"
+      }
+    },
+    {
+      "id": "L06",
+      "label": "berbin",
+      "pains": 0,
+      "utility": "0.5208333333333333",
+      "claim": 2,
+      "n_top_quartile": 1,
+      "scores": {
+        "psi": "-1.2962500000000001",
+        "ampk": "1.5266666666666666",
+        "pi3k": "-0.4770833333333333",
+        "glut1": "1.24125"
+      }
+    },
+    {
+      "id": "L07",
+      "label": "apigen",
+      "pains": 0,
+      "utility": "0.375",
+      "claim": 2,
+      "n_top_quartile": 0,
+      "scores": {
+        "psi": "0.30875",
+        "ampk": "0.052916666666666695",
+        "pi3k": "0.7116666666666667",
+        "glut1": "0.085"
+      }
+    },
+    {
+      "id": "L08",
+      "label": "luteol",
+      "pains": 0,
+      "utility": "0.625",
+      "claim": 2,
+      "n_top_quartile": 0,
+      "scores": {
+        "psi": "-0.13750000000000004",
+        "ampk": "-0.8725",
+        "pi3k": "-0.004999999999999977",
+        "glut1": "-0.455"
+      }
+    },
+    {
+      "id": "L09",
+      "label": "genist",
+      "pains": 0,
+      "utility": "0.5",
+      "claim": 2,
+      "n_top_quartile": 0,
+      "scores": {
+        "psi": "-0.4762500000000002",
+        "ampk": "-0.10041666666666668",
+        "pi3k": "0.3983333333333332",
+        "glut1": "0.27"
+      }
+    },
+    {
+      "id": "L10",
+      "label": "ellag",
+      "pains": 0,
+      "utility": "0.6875",
+      "claim": 3,
+      "n_top_quartile": 3,
+      "scores": {
+        "psi": "0.775",
+        "ampk": "-1.2533333333333334",
+        "pi3k": "-0.6683333333333334",
+        "glut1": "-1.2599999999999998"
+      }
+    },
+    {
+      "id": "L11",
+      "label": "piperin",
+      "pains": 0,
+      "utility": "0.3125",
+      "claim": 2,
+      "n_top_quartile": 1,
+      "scores": {
+        "psi": "-1.2774999999999999",
+        "ampk": "1.6210416666666665",
+        "pi3k": "0.6810416666666667",
+        "glut1": "1.518125"
+      }
+    },
+    {
+      "id": "L12",
+      "label": "ursol",
+      "pains": 0,
+      "utility": "0.625",
+      "claim": 3,
+      "n_top_quartile": 2,
+      "scores": {
+        "psi": "-4.7212499999999995",
+        "ampk": "0.140625",
+        "pi3k": "-2.308125",
+        "glut1": "1.3456249999999998"
+      }
+    }
+  ]
+}

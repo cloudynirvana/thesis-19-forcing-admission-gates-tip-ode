@@ -1,0 +1,674 @@
+{
+  "rng_draws": 0,
+  "candidate_sha256": "6252fcb50627caba3e0f8eb99043ca52535c59e62350f0ed27dc3fd6653f34c4",
+  "library_sha256_transcribed": "46d685fbeccf5b7b8facf06623c6d46f34f7aa1c91fc3bed2fec0cd0fcc68a16",
+  "t16_theta_sha256_cited_not_used": "0b85bb8afb97637e5d4e880ec2dd2fdfc8673be14ff6fd499208c31bae50ef6b",
+  "theta": {
+    "d0": "0.15",
+    "d_u": "0.25",
+    "g": "0.20",
+    "k_glyc": "0.60",
+    "s": "0.40",
+    "u_in": "0.50"
+  },
+  "theta_sha256": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+  "theta_sha256_after_all_calls": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+  "theta_unchanged": true,
+  "forcing_null_sha256": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de",
+  "forcing_admitted_sha256": "67b6e4bfb3028c04c14c2662b1df8c9730045e680b1bee6fdbbb97a017ef0d15",
+  "admitted_forcing": {
+    "amplitude_rule": "protocol_constant",
+    "pieces": [
+      {
+        "t0": "0",
+        "t1": "40",
+        "value": "1"
+      }
+    ],
+    "provenance": {
+      "claim": 3,
+      "library_sha256": "46d685fbeccf5b7b8facf06623c6d46f34f7aa1c91fc3bed2fec0cd0fcc68a16",
+      "pains": 0,
+      "row_id": "L10",
+      "score_copied": false
+    },
+    "symbol": "u_phyto"
+  },
+  "n_calls": 18,
+  "n_refused": 17,
+  "n_admitted": 1,
+  "eligible_ids": [
+    "L01",
+    "L10",
+    "L12"
+  ],
+  "eligibility": [
+    {
+      "id": "L01",
+      "label": "querol",
+      "claim": 3,
+      "pains": 0,
+      "eligible": true,
+      "reasons": []
+    },
+    {
+      "id": "L02",
+      "label": "kampol",
+      "claim": 2,
+      "pains": 0,
+      "eligible": false,
+      "reasons": [
+        "claim"
+      ]
+    },
+    {
+      "id": "L03",
+      "label": "curmin",
+      "claim": 2,
+      "pains": 0,
+      "eligible": false,
+      "reasons": [
+        "claim"
+      ]
+    },
+    {
+      "id": "L04",
+      "label": "resvol",
+      "claim": 2,
+      "pains": 0,
+      "eligible": false,
+      "reasons": [
+        "claim"
+      ]
+    },
+    {
+      "id": "L05",
+      "label": "egallate",
+      "claim": 2,
+      "pains": 1,
+      "eligible": false,
+      "reasons": [
+        "claim",
+        "pains"
+      ]
+    },
+    {
+      "id": "L06",
+      "label": "berbin",
+      "claim": 2,
+      "pains": 0,
+      "eligible": false,
+      "reasons": [
+        "claim"
+      ]
+    },
+    {
+      "id": "L07",
+      "label": "apigen",
+      "claim": 2,
+      "pains": 0,
+      "eligible": false,
+      "reasons": [
+        "claim"
+      ]
+    },
+    {
+      "id": "L08",
+      "label": "luteol",
+      "claim": 2,
+      "pains": 0,
+      "eligible": false,
+      "reasons": [
+        "claim"
+      ]
+    },
+    {
+      "id": "L09",
+      "label": "genist",
+      "claim": 2,
+      "pains": 0,
+      "eligible": false,
+      "reasons": [
+        "claim"
+      ]
+    },
+    {
+      "id": "L10",
+      "label": "ellag",
+      "claim": 3,
+      "pains": 0,
+      "eligible": true,
+      "reasons": []
+    },
+    {
+      "id": "L11",
+      "label": "piperin",
+      "claim": 2,
+      "pains": 0,
+      "eligible": false,
+      "reasons": [
+        "claim"
+      ]
+    },
+    {
+      "id": "L12",
+      "label": "ursol",
+      "claim": 3,
+      "pains": 0,
+      "eligible": true,
+      "reasons": []
+    }
+  ],
+  "calls": [
+    {
+      "id": "R01",
+      "kind": "score",
+      "row_id": "L05",
+      "destination": "d0",
+      "amplitude_rule": "copy_score",
+      "status": "refused",
+      "reasons": [
+        "theta_destination",
+        "claim",
+        "pains",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R02",
+      "kind": "score",
+      "row_id": "L12",
+      "destination": "d_u",
+      "amplitude_rule": "copy_score",
+      "status": "refused",
+      "reasons": [
+        "theta_destination",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R03",
+      "kind": "soft_prior",
+      "row_id": "L05",
+      "destination": "d0",
+      "amplitude_rule": "soft_prior",
+      "status": "refused",
+      "reasons": [
+        "soft_prior",
+        "theta_destination",
+        "claim",
+        "pains",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R04",
+      "kind": "score",
+      "row_id": "L10",
+      "destination": "u_phyto",
+      "amplitude_rule": "copy_score",
+      "status": "refused",
+      "reasons": [
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R05",
+      "kind": "score",
+      "row_id": "L05",
+      "destination": "u_phyto",
+      "amplitude_rule": "affine_score",
+      "status": "refused",
+      "reasons": [
+        "claim",
+        "pains",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R06",
+      "kind": "anecdote",
+      "row_id": null,
+      "destination": "u_phyto",
+      "amplitude_rule": "copy_score",
+      "status": "refused",
+      "reasons": [
+        "not_a_score_record"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R07",
+      "kind": "score",
+      "row_id": "L05",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "claim",
+        "pains"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R08",
+      "kind": "score",
+      "row_id": "L08",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "claim"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R09",
+      "kind": "utility",
+      "row_id": "L10",
+      "destination": "g",
+      "amplitude_rule": "copy_score",
+      "status": "refused",
+      "reasons": [
+        "utility_not_an_input",
+        "theta_destination",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R10",
+      "kind": "score",
+      "row_id": "L10",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "library_sha"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R11",
+      "kind": "score",
+      "row_id": "L10",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "engine"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R12",
+      "kind": "score",
+      "row_id": "L10",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "may_enter_theta"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R13",
+      "kind": "score",
+      "row_id": "L10",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "claim"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R14",
+      "kind": "soft_weight",
+      "row_id": "L10",
+      "destination": "s",
+      "amplitude_rule": "soft_weight",
+      "status": "refused",
+      "reasons": [
+        "soft_weight",
+        "theta_destination",
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "R15",
+      "kind": "score",
+      "row_id": "L10",
+      "destination": "N_ROS",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "symbol"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "8a1b1dce9b092d9b587060e02fbcc0d386fde1262f4955dea32bdfede99c87de"
+    },
+    {
+      "id": "A01",
+      "kind": "score",
+      "row_id": "L10",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "admitted",
+      "reasons": [],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "67b6e4bfb3028c04c14c2662b1df8c9730045e680b1bee6fdbbb97a017ef0d15"
+    },
+    {
+      "id": "R16",
+      "kind": "score",
+      "row_id": "L01",
+      "destination": "u_phyto",
+      "amplitude_rule": "protocol_constant",
+      "status": "refused",
+      "reasons": [
+        "slot_occupied"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "67b6e4bfb3028c04c14c2662b1df8c9730045e680b1bee6fdbbb97a017ef0d15"
+    },
+    {
+      "id": "R17",
+      "kind": "score",
+      "row_id": "L12",
+      "destination": "u_phyto",
+      "amplitude_rule": "copy_score",
+      "status": "refused",
+      "reasons": [
+        "amplitude_rule"
+      ],
+      "theta_unchanged": true,
+      "theta_sha256_after": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8",
+      "forcing_sha256_after": "67b6e4bfb3028c04c14c2662b1df8c9730045e680b1bee6fdbbb97a017ef0d15"
+    }
+  ],
+  "curves": {
+    "null": {
+      "u": 0.0,
+      "state_sha256": "1486bf2a2e592d568e331c236c7df808729d998357abd36fc58d9b377594244c",
+      "terminal": {
+        "G": 0.833333,
+        "R": 0.66562,
+        "A": 0.750755
+      },
+      "equilibrium": {
+        "G": 0.833333,
+        "R": 0.666667,
+        "A": 0.75
+      },
+      "equilibrium_abs_gap": {
+        "G": 2.105e-12,
+        "R": 0.001047,
+        "A": 0.0007547
+      },
+      "closed_form_max_abs": {
+        "G": 5.083e-09,
+        "R": 2.778e-09
+      },
+      "samples": {
+        "0": {
+          "G": 1.0,
+          "R": 0.2,
+          "A": 0.8
+        },
+        "5": {
+          "G": 0.841631,
+          "R": 0.46501,
+          "A": 0.917185
+        },
+        "10": {
+          "G": 0.833746,
+          "R": 0.572346,
+          "A": 0.826742
+        },
+        "20": {
+          "G": 0.833334,
+          "R": 0.645645,
+          "A": 0.765622
+        },
+        "40": {
+          "G": 0.833333,
+          "R": 0.66562,
+          "A": 0.750755
+        }
+      }
+    },
+    "admitted": {
+      "u": 1.0,
+      "state_sha256": "e5add31f87ea178b57a9e5fa754c8c3ce715c0a36ec804ee358ea5c08e99e484",
+      "terminal": {
+        "G": 0.833333,
+        "R": 0.25,
+        "A": 1.0
+      },
+      "equilibrium": {
+        "G": 0.833333,
+        "R": 0.25,
+        "A": 1.0
+      },
+      "equilibrium_abs_gap": {
+        "G": 1.211e-12,
+        "R": 5.462e-09,
+        "A": 3.107e-08
+      },
+      "closed_form_max_abs": {
+        "G": 4.725e-09,
+        "R": 2.204e-09
+      },
+      "samples": {
+        "0": {
+          "G": 1.0,
+          "R": 0.2,
+          "A": 0.8
+        },
+        "5": {
+          "G": 0.841631,
+          "R": 0.251788,
+          "A": 1.010465
+        },
+        "10": {
+          "G": 0.833746,
+          "R": 0.250668,
+          "A": 1.002335
+        },
+        "20": {
+          "G": 0.833334,
+          "R": 0.250016,
+          "A": 1.000011
+        },
+        "40": {
+          "G": 0.833333,
+          "R": 0.25,
+          "A": 1.0
+        }
+      }
+    },
+    "score_copy_contrast_not_a_result": {
+      "u": 1.2533333333333334,
+      "state_sha256": "492bfa6df5be6b0981f9f06266bb3bee4d8afe04743d3e93cfd9d6cb52467e5b",
+      "terminal": {
+        "G": 0.833333,
+        "R": 0.215827,
+        "A": 1.028106
+      },
+      "equilibrium": {
+        "G": 0.833333,
+        "R": 0.215827,
+        "A": 1.028107
+      },
+      "equilibrium_abs_gap": {
+        "G": 4.983e-12,
+        "R": 1.135e-09,
+        "A": 2.36e-08
+      },
+      "closed_form_max_abs": {
+        "G": 4.942e-09,
+        "R": 2.034e-09
+      },
+      "samples": {
+        "0": {
+          "G": 1.0,
+          "R": 0.2,
+          "A": 0.8
+        },
+        "5": {
+          "G": 0.841631,
+          "R": 0.22141,
+          "A": 1.027924
+        },
+        "10": {
+          "G": 0.833746,
+          "R": 0.216733,
+          "A": 1.028362
+        },
+        "20": {
+          "G": 0.833334,
+          "R": 0.215839,
+          "A": 1.028079
+        },
+        "40": {
+          "G": 0.833333,
+          "R": 0.215827,
+          "A": 1.028106
+        }
+      }
+    },
+    "affine_contrast_not_a_result": {
+      "u": 2.048958333333333,
+      "state_sha256": "fb3de5a96ac8f0f6351a55f0274ceed64c0879fce06dacd72abf7493039e8ec5",
+      "terminal": {
+        "G": 0.833333,
+        "R": 0.151003,
+        "A": 1.08601
+      },
+      "equilibrium": {
+        "G": 0.833333,
+        "R": 0.151003,
+        "A": 1.08601
+      },
+      "equilibrium_abs_gap": {
+        "G": 1.264e-12,
+        "R": 1.561e-12,
+        "A": 7.537e-09
+      },
+      "closed_form_max_abs": {
+        "G": 5.753e-09,
+        "R": 1.946e-09
+      },
+      "samples": {
+        "0": {
+          "G": 1.0,
+          "R": 0.2,
+          "A": 0.8
+        },
+        "5": {
+          "G": 0.841631,
+          "R": 0.157068,
+          "A": 1.070772
+        },
+        "10": {
+          "G": 0.833746,
+          "R": 0.151437,
+          "A": 1.084626
+        },
+        "20": {
+          "G": 0.833334,
+          "R": 0.151004,
+          "A": 1.085986
+        },
+        "40": {
+          "G": 0.833333,
+          "R": 0.151003,
+          "A": 1.08601
+        }
+      }
+    }
+  },
+  "max_abs_state_gap_admitted_vs_null": 0.41562,
+  "max_abs_G_gap_admitted_vs_null": 1.268e-09,
+  "contrasts_not_results": {
+    "soft_prior": {
+      "row_id": "L05",
+      "column": "ampk",
+      "score": "-3.6979166666666665",
+      "prior_mean_d0": 0.223958,
+      "posterior_mean_d0": 0.186979,
+      "theta_sha256_if_written": "87beab9213f1d2eeaf765777f42e9b7bdfbc2e84b496b3f4a48cdc7028a0c90b",
+      "written_to_ledger_theta": false,
+      "ledger_theta_sha256_after_contrast": "1ace2bb9eed19f85046f25ab690076d0d5920cf19219ddb362c775be9f41d0e8"
+    },
+    "score_copy_amplitude": {
+      "row_id": "L10",
+      "column": "ampk",
+      "score": "-1.2533333333333334",
+      "proposed_u": 1.253333,
+      "written_to_ledger_forcing": false
+    },
+    "affine_amplitude": {
+      "row_id": "L05",
+      "column": "ampk",
+      "score": "-3.6979166666666665",
+      "map": "0.20 + 0.50 * (-score)",
+      "proposed_u": 2.048958,
+      "written_to_ledger_forcing": false
+    },
+    "anecdote_text": "An unpublished mitochondrial-reprogramming roadmap mentioned G_tip moving from 0.238 to 0.245.",
+    "anecdote_recomputed_here": false
+  },
+  "checks": {
+    "eligible_set_is_L01_L10_L12": true,
+    "single_admission_A01": true,
+    "theta_bytes_unchanged": true,
+    "refusals_before_admission_left_null_forcing": true,
+    "refusals_after_admission_left_admitted_forcing": true,
+    "score_numerals_absent_from_forcing_payload": true,
+    "closed_form_G_R": true,
+    "G_equilibrium_independent_of_u": true,
+    "state_digest_moves_when_forcing_is_admitted": true,
+    "soft_prior_digest_differs_and_was_not_written": true
+  }
+}
